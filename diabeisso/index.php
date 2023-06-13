@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>DIABEISSO?</title>
+</head>
+    <body>
+    	<link rel="stylesheet" href="assets/css/estilo.css">
+        <nav id="menu">
+        <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="projeto.php">Projeto</a></li>
+            <li><a href="quemsomos.php">Quem somos?</a></li>
+            <li><a href="sugestoes.php">Sugestões</a></li>
+            <li><a href="contato.php">Contatos</a></li>
+        </ul>
+   </nav>
+		<img src="assets/img/eee.png"width="1800wh" height="900vh" id="imagem">
+        <div class="search-box">
+	    <form method="POST" action="#">
+        <input class="search-txt" type="text" autocomplete="off" aria-live="polite" name="search" placeholder="Buscar...">
+        <input type="submit" name="botao"class="search-btn" value="">
+    	</form>
+    <div id="resultado">
+    	<?php
+ $user = 'root';
+ $senha = '';
+ @$search = $_POST['search'];
+
+   
+ try {
+ 	$conn = new PDO('mysql:host=localhost;dbname=diabeisso',$user,$senha);
+ 	$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+   
+} catch(PDOException $e) {
+    echo 'ERRO: ' . $e->getMessage();
+}
+
+   $stmt = $conn->query("SELECT * FROM diabeisso WHERE palavras LIKE '%" . $search . "%'");
+   while($row = $stmt->fetch()){
+
+    if (!empty($search)) {
+    	echo $row['palavras'] . "<br><br>";
+		echo $row['significado'] . "<br><br>"; 
+		echo $row['exemplos'] .  "<br><br>";
+ }else 
+    echo "OXE! QUE DIABEISSO QUE TU PESQUISOU?";
+      break;
+      
+   }
+ 
+
+
+
+?>
+</div>
+
+</div>
+</body>
+</html>
+

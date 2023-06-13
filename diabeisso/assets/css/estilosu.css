@@ -1,0 +1,91 @@
+body{
+   font-family: "xilosa_";
+  src: local(xilosa_), url(../fontes/xilosa_.ttf);
+  
+}
+#caixa{
+   position: absolute;
+   top: 60%;
+   left: 50%;
+   padding: 15px;
+   transform: translate(-50%,-50%);
+   border-radius: 15px;
+   width: 20%;
+
+
+}
+fieldset{
+    border: 3px solid black;
+}
+.inputBox{
+   position: relative;
+}
+.inputUser{
+  background: none;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  color: black;
+  font-size: 15px;
+  width: 100%;
+  letter-spacing: 2px;
+}
+.labelInput{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  pointer-events: none;
+  transition: .5s;
+}
+
+*{
+  margin: 0 auto;
+  padding: 0;
+}
+#menu ul li a{
+    text-decoration: none;
+    color: #FFF;
+    display: inline-block;
+    padding: 20px;
+    margin-left: 10%;
+    font-family: "xilosa_";
+  src: local(xilosa_), url(../fontes/xilosa_.ttf);
+  font-size: 20px;
+
+}
+
+#menu ul li a:hover {
+    background-color: gray;
+    transition: background .5s;
+
+}
+
+@font-face {
+  font-family: "xilosa_";
+  src: local(xilosa_), url(../fontes/xilosa_.ttf)
+}
+#menu ul{
+   list-style: none;
+   background-color: black;
+}
+#menu ul li{
+   display: inline;
+   padding: 20px;
+}
+#imagem{
+  position: absolute;
+}
+#submit{
+  background-color: black;
+  border: none;
+  padding: 15px;
+  width: 100%;
+  border-radius: 50px;
+  color: white;
+  font-size: 20px;
+ 
+}
+
+#submit:hover{
+ background-color: gray;
+}

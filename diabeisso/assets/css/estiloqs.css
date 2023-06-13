@@ -1,0 +1,50 @@
+#menu ul{
+   list-style: none;
+   background-color: black;
+}
+#menu ul li{
+   display: inline;
+   padding: 20px;
+
+}
+#menu ul li a{
+    text-decoration: none;
+    color: #FFF;
+    display: inline-block;
+    padding: 20px;
+    margin-left: 10%;
+    font-family: "xilosa_";
+  src: local(xilosa_), url(../fontes/xilosa_.ttf);
+  font-size: 20px;
+
+}
+
+#menu ul li a:hover {
+    background-color: gray;
+    transition: background .5s;
+
+}
+*{
+  margin: 0 auto;
+  padding: 0;
+}
+@font-face {
+  font-family: "xilosa_";
+  src: local(xilosa_), url(../fontes/xilosa_.ttf)
+}
+p{
+   position: absolute;
+   top: 27.9%;
+   left: 29.5%;
+   padding: 13px;
+   width: 40%;
+    font-family: "xilosa_";
+  src: local(xilosa_), url(../fontes/xilosa_.ttf);
+  font-size: 40px;
+}
+}
+#imagem{
+  position: absolute;
+
+}
+
