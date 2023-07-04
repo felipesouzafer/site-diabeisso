@@ -17,7 +17,7 @@
             <li><a href="contato.php">Contatos</a></li>
         </ul>
    </nav>
-		
+	   <section  class="section">
         <div class="search-box">
 	    <form method="POST" action="#">
         <input class="search-txt" type="text" autocomplete="off" aria-live="polite" name="search" placeholder="Buscar...">
@@ -58,6 +58,7 @@
 </div>
 
 </div>
+</section>
 </body>
 </html>
 
