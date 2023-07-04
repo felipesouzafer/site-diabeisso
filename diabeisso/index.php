@@ -3,10 +3,11 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/estilo.css">
 	<title>DIABEISSO?</title>
 </head>
     <body>
-    	<link rel="stylesheet" href="assets/css/estilo.css">
+    	
         <nav id="menu">
         <ul>
             <li><a href="#">Início</a></li>
@@ -16,7 +17,7 @@
             <li><a href="contato.php">Contatos</a></li>
         </ul>
    </nav>
-		<img src="assets/img/eee.png"width="1800wh" height="900vh" id="imagem">
+		
         <div class="search-box">
 	    <form method="POST" action="#">
         <input class="search-txt" type="text" autocomplete="off" aria-live="polite" name="search" placeholder="Buscar...">
