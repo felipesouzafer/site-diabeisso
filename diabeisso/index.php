@@ -3,13 +3,17 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" sizes="16x16"
+        href="assets/img/aaa.png">
     <link rel="stylesheet" href="assets/css/estilo.css">
 	<title>DIABEISSO?</title>
 </head>
     <body>
     	
         <nav id="menu">
-        <ul>
+                 
+        <ul>    
+        <img src="assets/img/aaa.png" alt="">    
             <li><a href="#">Início</a></li>
             <li><a href="projeto.php">Projeto</a></li>
             <li><a href="quemsomos.php">Quem somos?</a></li>
@@ -17,7 +21,8 @@
             <li><a href="contato.php">Contatos</a></li>
         </ul>
    </nav>
-	   <section  class="section">
+	     <section class="section-oxe">
+          
         <div class="search-box">
 	    <form method="POST" action="#">
         <input class="search-txt" type="text" autocomplete="off" aria-live="polite" name="search" placeholder="Buscar...">
@@ -55,6 +60,9 @@
 
 
 ?>
+     
+
+
 </div>
 
 </div>
