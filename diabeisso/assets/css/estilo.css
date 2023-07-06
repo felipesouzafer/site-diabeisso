@@ -123,14 +123,47 @@ a:hover{
    
 }
 
-@media (min-widht: 1200px) {
-   
+.mobile-menu{
+   cursor: pointer;
 }
 
-@media (min-widht: 720px) {
-   
+.mobile-menu div{
+   width: 32px;
+   height: 2px;
+   background: black;
+   margin: 8px;
 }
 
-@media (min-widht: 320px) {
-   
+@media (max-widht: 999px) {
+  body{
+   overflow-x: hidden;
+  }
+     .nav-list{
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        background-color: #FFF;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+     }
+
+     .nav-list li{
+        margin-left: 0;
+        opacity: 0;
+     }
+
+     .mobile-menu{
+          display: block;
+
+     }
+
+     .nav-list:active{
+       transform: translateX(0);
+       
+     }
 }
+
