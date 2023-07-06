@@ -23,10 +23,11 @@
    </nav>
 </header>
 	    <section >
-
+      
         </section>
           
         <div class="search-box">
+        
 	    <form method="POST" action="#">
         <input class="search-txt" type="text" autocomplete="off" aria-live="polite" name="search" placeholder="Buscar...">
         <input type="submit" name="botao"class="search-btn" value="">

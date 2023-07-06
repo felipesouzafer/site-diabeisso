@@ -7,10 +7,13 @@
 body{
    padding: 0;
    margin: 0;
+   background-image: url(./oxe.jpg);
    
  }
 section{
-   background-image: url(./oxe.jpg);
+ 
+   width: 200px;
+   margin-top: 20%;
 }
 
 .search-box{
@@ -23,6 +26,11 @@ section{
    border-radius: 40px;
    padding: 10px;
    box-shadow: none;
+
+}
+
+.div-section{
+   background-color: #fff;
 }
 .search-btn{
   color: goldenrod;
