@@ -9,19 +9,22 @@
 	<title>DIABEISSO?</title>
 </head>
     <body>
-    	
+    	<header>
         <nav id="menu">
                  
-        <ul>    
-        <img src="assets/img/aaa.png" alt="">    
-            <li><a href="#">Início</a></li>
+        <ul class="nav-list">    
+            
+            <li><a href="index.php">Início</a></li>
             <li><a href="projeto.php">Projeto</a></li>
             <li><a href="quemsomos.php">Quem somos?</a></li>
             <li><a href="sugestoes.php">Sugestões</a></li>
             <li><a href="contato.php">Contatos</a></li>
         </ul>
    </nav>
-	     <section class="section-oxe">
+</header>
+	    <section >
+
+        </section>
           
         <div class="search-box">
 	    <form method="POST" action="#">
@@ -66,7 +69,7 @@
 </div>
 
 </div>
-</section>
+
 </body>
 </html>
 

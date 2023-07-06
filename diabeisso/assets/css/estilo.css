@@ -7,14 +7,11 @@
 body{
    padding: 0;
    margin: 0;
+   
+ }
+section{
    background-image: url(./oxe.jpg);
- 
- }
-
- .section-oxe{
-    background-color:#fff;
-    width: 500px;
- }
+}
 
 .search-box{
    width: 40%;
@@ -76,47 +73,46 @@ body{
   src: local(xilosa_), url(../fontes/xilosa_.ttf)
 }
 
-#menu{
-   justify-content: space-between;
-}
-
-#menu img{
-   width: 50px;
-    margin-left: 5%;
-}
-
-#menu ul{
+a{
+   color: black;
+   text-decoration: none;
    list-style: none;
-   background-color: white;
-   box-shadow: 3px 3px 3px rgb(0 0 0 / 6%);
-   position: fixed;
-   width: 100%;
-  
+   transition: 0.3s;
    
 }
-#menu ul li{
-   display: inline;
-   padding: 2px;
-   align-items: center;
-   margin-top: 5px;
-}
-#menu ul li a{
-    text-decoration: none;
-    color: black;
-    display: inline-block;
-    padding: 20px;
-    justify-content: center;
-    text-align: center;
-    font-family: "xilosa_";
-  src: local(xilosa_), url(../fontes/xilosa_.ttf);
-  font-size: 20px;
-    
 
-}
-
-#menu ul li a:hover {
+a:hover{
    color: gray;
+   opacity: 0.7;
+}
 
+.logo{
+   font-size: 24px;
+   text-transform: uppercase;
+   letter-spacing: 4px;
+  text-align: left;
+}
+
+#menu{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   font-family: "xilosa_";
+   height: 8vh;
+   background-color: #fff;
+   width: 100%;
+}
+
+.nav-list{
+   display: flex;
+   list-style: none;
+
+}
+
+.nav-list li{
+   letter-spacing: 3px;
+   margin-left: 32px;
+   
 }
 
 @media (min-widht: 1200px) {
