@@ -9,10 +9,12 @@
 	<title>DIABEISSO?</title>
 </head>
     <body>
+
+        <!--Menu-->
     	<header>
         <nav id="menu">
                  <div class="mobile-menu">
-                    <div class="line1"></div>
+                   <div class="line1"></div>
                     <div class="line2"></div>
                     <div class="line3"></div>
 
@@ -29,13 +31,14 @@
 	    <section >
       
         </section>
-          
+          <!--Campo de busca-->
         <div class="search-box">
         
 	    <form method="POST" action="#">
         <input class="search-txt" type="text" autocomplete="off" aria-live="polite" name="search" placeholder="Buscar...">
         <input type="submit" name="botao"class="search-btn" value="">
     	</form>
+        <!-- PHP do resultado da busca-->
     <div id="resultado">
     	<?php
  $user = 'root';
