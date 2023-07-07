@@ -1,3 +1,4 @@
+// JS Menu
 class MobileNavbar{
     constructor(mobileMenu){
         this.mobileMenu = document.querySelector(mobileMenu);
@@ -20,5 +21,5 @@ class MobileNavbar{
 const mobileNavbar = new MobileNavbar(
     ".mobile-menu",
     "nav-list",
-    
+
 )
