@@ -25,7 +25,9 @@
    </nav>
 </header>
 
-
+  <div class="div-oxe">
+       
+  </div>
 	   
           <!--Campo de busca-->
         <div class="search-box">
@@ -74,10 +76,9 @@
 
 </div>
 
- <section class="section-oxe">
-     
-
- </section>
+<div class="div-oxe1">
+       
+  </div>
  <script src="assets/js/main.js"></script>
 </body>
 </html>

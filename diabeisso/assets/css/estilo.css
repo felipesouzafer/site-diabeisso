@@ -81,11 +81,21 @@ body{
    font-size: 22.5px;
 }
 
-/* Section - IMG*/
-.section-oxe img{
-  
+.div-oxe{
+   background-image: url(./oxe.jpg);
+   height: 50px;
 }
 
+.div-oxe1{
+   background-image: url(./oxe.jpg);
+   height: 50px;
+   margin-top: 25%;
+}
+
+
+placeholder{
+   font-family: "xilosa_";
+}
 /*Fonte Xilosa*/
 @font-face {
   font-family: "xilosa_";
