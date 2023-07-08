@@ -13,12 +13,8 @@
         <!--Menu-->
     	<header>
         <nav id="menu">
-                 <div class="mobile-menu">
-                   <div class="line1"></div>
-                    <div class="line2"></div>
-                    <div class="line3"></div>
-
-                 </div>
+                 
+                   <img src="assets/img/aaa.png" alt="" srcset="">
         <ul class="nav-list">    
             <li><a href="index.php">Início</a></li>
             <li><a href="projeto.php">Projeto</a></li>
