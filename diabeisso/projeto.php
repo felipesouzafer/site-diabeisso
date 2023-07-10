@@ -5,20 +5,33 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Projeto</title>
 		<link rel="stylesheet" href="assets/css/estilopr.css">
-       <nav id="menu">
-        <ul>
+      
+</head>
+<body>
+
+<header>
+        <nav id="menu">
+                 
+                   <img src="assets/img/aaa.png" alt="" srcset="">
+        <ul class="nav-list">    
             <li><a href="index.php">Início</a></li>
-            <li><a href="#">Projeto</a></li>
+            <li><a href="projeto.php">Projeto</a></li>
             <li><a href="quemsomos.php">Quem somos?</a></li>
             <li><a href="sugestoes.php">Sugestões</a></li>
             <li><a href="contato.php">Contatos</a></li>
         </ul>
    </nav>
-</head>
-<body>
-     <img src="assets/img/projeto.png"width="1895wh" height="895vh" id="imagem"> 
+</header>
+
+<div class="div-oxe">
+       
+       </div>
+    
     
     <div id="projeto" >
+
+       <h1>Projeto</h1>
+
      <p id="introdução">Introdução:
 O termo diabeisso é usado para demonstrar estranhamento ou dúvida nos diálogos
 nordestinos. Fazendo alusão a essa expressão, nomeamos o nosso projeto. Que consistindo
@@ -51,5 +64,10 @@ que os objetivos foram alcançados. Desse modo, evidencia-se na nossa sociedade 
 protagonismo estudantil em conjunto com as ferramentas tecnológicas são essenciais para a
 concretização de ideias inovadoras no âmbito sociocultural.</p>
 </div> 
+
+<div class="div-oxe1">
+       
+       </div>
+
 </body>
 </html>

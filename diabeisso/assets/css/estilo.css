@@ -133,6 +133,7 @@ a:hover{
    height: 8vh;
    background-color: var(--white);
    width: 100%;
+   box-shadow: 3px 3px 3px rgb(0 0 0 / 6%);
 }
 
 #menu img{
